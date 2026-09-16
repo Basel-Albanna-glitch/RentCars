@@ -1,0 +1,344 @@
+{
+  "common": {
+    "siteName": "South Rent Car",
+    "siteTagline": "Ürdün'de lüks araç kiralama",
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "tryAgain": "Tekrar dene",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "view": "Görüntüle",
+    "close": "Kapat",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki",
+    "submit": "Gönder",
+    "confirm": "Onayla",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "all": "Tümü",
+    "yes": "Evet",
+    "no": "Hayır",
+    "currency": "JOD",
+    "perDay": "günlük",
+    "days": "gün",
+    "day": "gün"
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "cars": "Araçlar",
+    "branches": "Şubeler",
+    "offers": "Kampanyalar",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "login": "Giriş yap",
+    "register": "Kayıt ol",
+    "dashboard": "Hesabım",
+    "admin": "Yönetim",
+    "logout": "Çıkış yap",
+    "language": "Dil"
+  },
+  "home": {
+    "hero": {
+      "badge": "Ürdün'ün 1 numarası",
+      "title": "Ürdün'ü keşfedin",
+      "titleHighlight": "Lüks ve şıklıkla",
+      "subtitle": "Krallığın her yerinde unutulmaz bir sürüş deneyimi için premium araç filosu",
+      "searchPlaceholder": "Nereye gitmek istiyorsunuz?",
+      "pickupDate": "Alış tarihi",
+      "returnDate": "İade tarihi",
+      "searchBtn": "Araç bul",
+      "stats": {
+        "cars": "Lüks araç",
+        "customers": "Mutlu müşteri",
+        "years": "Yıllık deneyim",
+        "branches": "Şube"
+      }
+    },
+    "featured": "Öne çıkan araçlar",
+    "featuredSubtitle": "Premium seçkimizden seçin",
+    "viewAll": "Tüm araçları gör",
+    "howItWorks": "Nasıl çalışır?",
+    "howItWorksSubtitle": "Aracınızı almak için üç basit adım",
+    "steps": {
+      "choose": {
+        "title": "Aracınızı seçin",
+        "desc": "Filomuzu inceleyin ve size en uygun aracı seçin"
+      },
+      "book": {
+        "title": "Anında rezervasyon",
+        "desc": "Tarihleri seçin ve rezervasyonunuzu güvenle tamamlayın"
+      },
+      "drive": {
+        "title": "Yola çıkın!",
+        "desc": "Aracınızı teslim alın ve yolculuğunuzun tadını çıkarın"
+      }
+    },
+    "whyUs": "Neden South Rent Car?",
+    "features": {
+      "luxury": {
+        "title": "Premium filo",
+        "desc": "En yüksek kalite standartlarını karşılayan modern araçlar"
+      },
+      "safe": {
+        "title": "Güvenli ödeme",
+        "desc": "Şifrelenmiş ve tam korumalı ödeme altyapısı"
+      },
+      "support": {
+        "title": "7/24 destek",
+        "desc": "Ekibimiz gece gündüz hizmetinizde"
+      },
+      "delivery": {
+        "title": "Adrese teslim",
+        "desc": "Aracı Ürdün'de bulunduğunuz yere getiriyoruz"
+      }
+    }
+  },
+  "cars": {
+    "title": "Filomuz",
+    "subtitle": "Seçkin koleksiyonumuzdan seçin",
+    "filters": {
+      "all": "Tüm araçlar",
+      "available": "Sadece müsait olanlar",
+      "transmission": "Vites",
+      "automatic": "Otomatik",
+      "manual": "Manuel",
+      "fuelType": "Yakıt türü",
+      "petrol": "Benzin",
+      "diesel": "Dizel",
+      "hybrid": "Hibrit",
+      "electric": "Elektrikli",
+      "seats": "Koltuk",
+      "priceRange": "Fiyat aralığı",
+      "sortBy": "Sıralama",
+      "priceLow": "Fiyat: artan",
+      "priceHigh": "Fiyat: azalan",
+      "newest": "En yeni"
+    },
+    "card": {
+      "perDay": "/ gün",
+      "seats": "koltuk",
+      "book": "Hemen kirala",
+      "details": "Detaylar",
+      "available": "Müsait",
+      "booked": "Rezerve",
+      "maintenance": "Bakımda"
+    },
+    "detail": {
+      "specs": "Teknik özellikler",
+      "pricing": "Fiyatlandırma",
+      "availability": "Müsaitlik",
+      "daily": "Günlük",
+      "weekly": "Haftalık",
+      "monthly": "Aylık",
+      "deposit": "Depozito",
+      "fuel": "Yakıt türü",
+      "consumption": "Tüketim",
+      "transmission": "Vites",
+      "color": "Renk",
+      "year": "Yıl",
+      "brand": "Marka",
+      "model": "Model",
+      "seats": "Koltuk"
+    }
+  },
+  "booking": {
+    "title": "Rezervasyonunuzu tamamlayın",
+    "steps": {
+      "dates": "Tarihler",
+      "details": "Bilgiler",
+      "documents": "Belgeler",
+      "payment": "Ödeme",
+      "confirm": "Onay"
+    },
+    "pickupDate": "Alış tarihi",
+    "returnDate": "İade tarihi",
+    "minDays": "Minimum kiralama süresi {days} gündür",
+    "seasonMinDays": "Bu sezonda minimum süre {days} gündür",
+    "delivery": "Aracın bulunduğunuz yere teslim edilmesini ister misiniz?",
+    "deliveryAddress": "Teslimat adresi",
+    "uploadDocs": "Gerekli belgeleri yükleyin",
+    "idDoc": "Kimlik / pasaport fotoğrafı",
+    "licenseDoc": "Ehliyet fotoğrafı",
+    "uploadHint": "PNG veya JPG, en fazla 10 MB",
+    "paymentMethod": "Ödeme yöntemi",
+    "summary": "Rezervasyon özeti",
+    "car": "Araç",
+    "period": "Süre",
+    "baseCost": "Temel ücret",
+    "seasonFee": "Sezon farkı",
+    "discount": "İndirim",
+    "deposit": "Depozito",
+    "total": "Toplam",
+    "pointsAvailable": "Kullanılabilir puanınız",
+    "usePoints": "Puanları indirim olarak kullan",
+    "termsAgree": "Şartlar ve koşulları kabul ediyorum",
+    "bookNow": "Rezervasyonu onayla",
+    "successTitle": "Rezervasyon talebiniz gönderildi!",
+    "successMsg": "Talebiniz ekibimiz tarafından incelenecek ve 24 saat içinde size bilgi verilecektir",
+    "bookingNumber": "Rezervasyon numarası"
+  },
+  "auth": {
+    "login": "Giriş yap",
+    "register": "Yeni hesap oluştur",
+    "email": "E-posta adresi",
+    "password": "Şifre",
+    "confirmPassword": "Şifreyi doğrula",
+    "name": "Ad soyad",
+    "phone": "Telefon numarası",
+    "forgotPassword": "Şifrenizi mi unuttunuz?",
+    "noAccount": "Hesabınız yok mu?",
+    "hasAccount": "Zaten hesabınız var mı?",
+    "loginBtn": "Giriş yap",
+    "registerBtn": "Hesap oluştur",
+    "orContinueWith": "Ya da şununla devam edin",
+    "google": "Google",
+    "loginSuccess": "Giriş başarılı",
+    "registerSuccess": "Hesap başarıyla oluşturuldu"
+  },
+  "dashboard": {
+    "title": "Hesabım",
+    "welcome": "Hoş geldiniz,",
+    "bookings": "Rezervasyonlarım",
+    "favorites": "Favorilerim",
+    "profile": "Profilim",
+    "points": "Puanlarım",
+    "documents": "Belgelerim",
+    "noBookings": "Henüz rezervasyon yok",
+    "bookNow": "Hemen araç kirala",
+    "status": {
+      "pending": "İnceleme bekliyor",
+      "approved": "Onaylandı",
+      "rejected": "Reddedildi",
+      "completed": "Tamamlandı",
+      "cancelled": "İptal edildi"
+    },
+    "pointsInfo": "Her rezervasyon size indirime dönüşen puanlar kazandırır",
+    "totalPoints": "Toplam puanınız"
+  },
+  "admin": {
+    "title": "Yönetim paneli",
+    "dashboard": "İstatistikler",
+    "cars": "Araçlar",
+    "bookings": "Rezervasyonlar",
+    "customers": "Müşteriler",
+    "branches": "Şubeler",
+    "seasons": "Sezonlar",
+    "offers": "Kampanyalar",
+    "documents": "Belgeler",
+    "reports": "Raporlar",
+    "settings": "Ayarlar",
+    "totalBookings": "Toplam rezervasyon",
+    "totalRevenue": "Toplam gelir",
+    "totalCars": "Toplam araç",
+    "totalCustomers": "Toplam müşteri",
+    "pendingBookings": "Bekleyen rezervasyonlar",
+    "availableCars": "Müsait araçlar",
+    "addCar": "Araç ekle",
+    "approve": "Onayla",
+    "reject": "Reddet",
+    "viewDocuments": "Belgeleri görüntüle"
+  },
+  "contact": {
+    "title": "Bize ulaşın",
+    "subtitle": "Her zaman yardıma hazırız",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "email": "E-posta",
+    "emergency": "Acil durum hattı",
+    "sendMessage": "Mesaj gönderin",
+    "yourName": "Adınız",
+    "yourEmail": "E-posta adresiniz",
+    "subject": "Konu",
+    "message": "Mesajınız",
+    "send": "Gönder",
+    "messageSent": "Mesajınız başarıyla gönderildi"
+  },
+  "branches": {
+    "title": "Şubelerimiz",
+    "subtitle": "Ürdün'ün birçok noktasında hizmetinizdeyiz",
+    "viewOnMap": "Haritada göster",
+    "getDirections": "Yol tarifi al",
+    "callBranch": "Şubeyi ara",
+    "workingHours": "Çalışma saatleri",
+    "carsAvailable": "Müsait araçlar"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "South Rent Car'ın hikâyesi ve Krallık'ta araç kiralamaya bakışımız",
+    "storyTitle": "Hikâyemiz",
+    "storyBody1": "South Rent Car basit bir fikirle başladı: Ürdün'deki her ziyaretçi ve her sakin, yolculuğuna yakışan bir araca zahmetsizce ve faturada sürpriz olmadan kavuşabilmeli.",
+    "storyBody2": "Bugün modern lüks araçlardan oluşan bir filomuz, Amman ve Akabe'de şubelerimiz ve yolculuğunuzun tam zamanında başlaması için 7/24 çalışan bir ekibimiz var.",
+    "missionTitle": "Misyonumuz",
+    "missionBody": "Ürdün'de lüks araç kiralamayı rezervasyondan anahtar teslimine kadar basit, şeffaf ve güvenilir hâle getirmek.",
+    "valuesTitle": "Değerlerimiz",
+    "valuesSubtitle": "Hizmetimizin her ayrıntısının arkasındaki üç ilke",
+    "values": {
+      "quality": {
+        "title": "Ödün Vermeyen Kalite",
+        "desc": "Filomuzdaki her araç, her teslimden önce kontrol edilir ve bakımı yapılır"
+      },
+      "trust": {
+        "title": "Şeffaf Fiyatlandırma",
+        "desc": "Gördüğünüz fiyat ödediğiniz fiyattır, gizli ücret yoktur"
+      },
+      "service": {
+        "title": "Öngörülü Hizmet",
+        "desc": "Krallık'ın her yerinde Arapça ve İngilizce 7/24 destek"
+      }
+    },
+    "whyTitle": "Neden South Rent Car?",
+    "ctaTitle": "Farkı hissetmeye hazır mısınız?",
+    "ctaBody": "Filomuza göz atın ve aracınızı dakikalar içinde ayırtın",
+    "ctaBtn": "Araçlara Göz At"
+  },
+  "legal": {
+    "lastUpdated": "Son güncelleme",
+    "backHome": "Ana sayfaya dön",
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "intro": "Gizliliğinize saygı duyuyor ve kişisel verilerinizi korumayı taahhüt ediyoruz. Bu politika neleri topladığımızı ve nasıl kullandığımızı açıklar.",
+      "collectTitle": "Topladığımız Veriler",
+      "collectBody": "Hesap oluştururken adınızı, e-postanızı ve telefon numaranızı; rezervasyonu tamamlarken kimlik ve ehliyet fotoğraflarınızı; ayrıca rezervasyon ve ödeme geçmişinizi toplarız.",
+      "useTitle": "Verilerinizi Nasıl Kullanırız",
+      "useBody": "Verilerinizi rezervasyonları işlemek, sürüş uygunluğunu doğrulamak, rezervasyonunuz hakkında sizinle iletişim kurmak ve hizmetimizi geliştirmek için kullanırız. İzniniz olmadan başka bir amaçla kullanmayız.",
+      "shareTitle": "Veri Paylaşımı",
+      "shareBody": "Verilerinizi satmayız. Yalnızca işlemi tamamlamak için ödeme sağlayıcılarıyla ve yasal yükümlülük bulunduğunda yetkili makamlarla paylaşırız.",
+      "securityTitle": "Veri Güvenliği",
+      "securityBody": "Parolalar şifrelenmiş olarak saklanır ve veriler şifreli bağlantı üzerinden iletilir. Müşteri belgelerine erişim yetkili personelle sınırlıdır.",
+      "rightsTitle": "Haklarınız",
+      "rightsBody": "Bizimle iletişime geçerek verilerinize erişim, düzeltme veya silme talebinde istediğiniz zaman bulunabilirsiniz.",
+      "contactTitle": "Gizlilik Soruları",
+      "contactBody": "Gizlilikle ilgili her soru için info@drivejordan.jo adresine yazın"
+    },
+    "terms": {
+      "title": "Şartlar ve Koşullar",
+      "intro": "South Rent Car sitesini kullanarak ve üzerinden araç kiralayarak aşağıdaki şartları kabul etmiş olursunuz.",
+      "eligibilityTitle": "Uygunluk",
+      "eligibilityBody": "Kiralayan en az 21 yaşında olmalı, en az bir yıllık geçerli bir ehliyete sahip olmalı ve geçerli bir kimlik veya pasaport ibraz etmelidir.",
+      "bookingTitle": "Rezervasyon ve Onay",
+      "bookingBody": "Her rezervasyon talebi inceleme ve belge doğrulamasına tabidir. Asgari kiralama süresi 3 gün, yoğun sezonda 7 gündür. Rezervasyon yalnızca onaylandığında kesinleşir.",
+      "paymentTitle": "Ödeme ve Depozito",
+      "paymentBody": "Depozito teslim alırken ödenir ve araç orijinal durumunda iade edildiğinde tamamı geri verilir. Rezervasyon anında yayımlanan sezon fiyatları geçerlidir.",
+      "cancellationTitle": "İptal ve Değişiklik",
+      "cancellationBody": "Rezervasyonlar teslim alma saatinden 48 saat öncesine kadar ücretsiz iptal edilebilir. Sonraki iptallerde bir günlük ücret alınabilir.",
+      "liabilityTitle": "Sorumluluk",
+      "liabilityBody": "Kiralama süresi boyunca trafik cezaları ve sigorta kapsamı dışındaki hasarlar kiralayanın sorumluluğundadır. Aracın Krallık dışına çıkarılması yazılı izin gerektirir.",
+      "pointsTitle": "Puan Programı",
+      "pointsBody": "Tamamlanan rezervasyonlar her JOD için 10 puan kazandırır ve her 100 puan 1 JOD indirime karşılık gelir. Puanlar devredilemez ve nakde çevrilemez.",
+      "contactTitle": "İletişim",
+      "contactBody": "Bu şartlarla ilgili sorular için info@drivejordan.jo adresine yazın"
+    }
+  },
+  "footer": {
+    "description": "Ürdün'ün önde gelen lüks araç kiralama şirketi. Üst düzey araçları rekabetçi fiyatlarla sunuyoruz.",
+    "quickLinks": "Hızlı bağlantılar",
+    "services": "Hizmetlerimiz",
+    "followUs": "Bizi takip edin",
+    "rights": "Tüm hakları saklıdır",
+    "privacy": "Gizlilik politikası",
+    "terms": "Şartlar ve koşullar"
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "common": {
+    "siteName": "South Rent Car",
+    "siteTagline": "Tourism Car Rental in Jordan",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "tryAgain": "Try again",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "yes": "Yes",
+    "no": "No",
+    "currency": "JD",
+    "perDay": "per day",
+    "days": "days",
+    "day": "day"
+  },
+  "nav": {
+    "home": "Home",
+    "cars": "Cars",
+    "branches": "Branches",
+    "offers": "Offers",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "dashboard": "My Dashboard",
+    "admin": "Admin",
+    "logout": "Logout",
+    "language": "Language"
+  },
+  "home": {
+    "hero": {
+      "badge": "#1 in Jordan",
+      "title": "Explore Jordan",
+      "titleHighlight": "In Tourism & Style",
+      "subtitle": "Premium fleet of vehicles for an unforgettable driving experience across the Kingdom",
+      "searchPlaceholder": "Where do you want to go?",
+      "pickupDate": "Pickup Date",
+      "returnDate": "Return Date",
+      "searchBtn": "Find a Car",
+      "stats": {
+        "cars": "Tourism Cars",
+        "customers": "Happy Clients",
+        "years": "Years Experience",
+        "branches": "Branches"
+      }
+    },
+    "featured": "Featured Cars",
+    "featuredSubtitle": "Choose from our premium selection",
+    "viewAll": "View All Cars",
+    "howItWorks": "How It Works",
+    "howItWorksSubtitle": "Three simple steps to get your car",
+    "steps": {
+      "choose": {
+        "title": "Choose Your Car",
+        "desc": "Browse our fleet and pick the perfect car for you"
+      },
+      "book": {
+        "title": "Book Instantly",
+        "desc": "Select dates and complete your booking securely"
+      },
+      "drive": {
+        "title": "Hit the Road",
+        "desc": "Pick up your car and enjoy your journey"
+      }
+    },
+    "whyUs": "Why South Rent Car?",
+    "features": {
+      "luxury": {
+        "title": "Premium Fleet",
+        "desc": "Modern cars meeting the highest quality standards"
+      },
+      "safe": {
+        "title": "Secure Payment",
+        "desc": "Encrypted and fully protected payment platform"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "desc": "Our team is available around the clock"
+      },
+      "delivery": {
+        "title": "Door Delivery",
+        "desc": "We deliver the car to your location in Jordan"
+      }
+    }
+  },
+  "cars": {
+    "title": "Our Fleet",
+    "subtitle": "Choose from our distinguished collection",
+    "filters": {
+      "all": "All Cars",
+      "available": "Available Only",
+      "transmission": "Transmission",
+      "automatic": "Automatic",
+      "manual": "Manual",
+      "fuelType": "Fuel Type",
+      "petrol": "Petrol",
+      "diesel": "Diesel",
+      "hybrid": "Hybrid",
+      "electric": "Electric",
+      "seats": "Seats",
+      "priceRange": "Price Range",
+      "sortBy": "Sort By",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low",
+      "newest": "Newest"
+    },
+    "card": {
+      "perDay": "/ day",
+      "seats": "seats",
+      "book": "Book Now",
+      "details": "Details",
+      "available": "Available",
+      "booked": "Booked",
+      "maintenance": "Maintenance"
+    },
+    "detail": {
+      "specs": "Specifications",
+      "pricing": "Pricing",
+      "availability": "Availability",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "deposit": "Deposit",
+      "fuel": "Fuel Type",
+      "consumption": "Consumption",
+      "transmission": "Transmission",
+      "color": "Color",
+      "year": "Year",
+      "brand": "Brand",
+      "model": "Model",
+      "seats": "Seats"
+    }
+  },
+  "booking": {
+    "title": "Complete Your Booking",
+    "steps": {
+      "dates": "Dates",
+      "details": "Details",
+      "documents": "Documents",
+      "payment": "Payment",
+      "confirm": "Confirm"
+    },
+    "pickupDate": "Pickup Date",
+    "returnDate": "Return Date",
+    "minDays": "Minimum booking is {days} days",
+    "seasonMinDays": "During this season, minimum is {days} days",
+    "delivery": "Do you want the car delivered to your location?",
+    "deliveryAddress": "Delivery Address",
+    "uploadDocs": "Upload Required Documents",
+    "idDoc": "ID / Passport Photo",
+    "licenseDoc": "Driving License Photo",
+    "uploadHint": "PNG, JPG up to 10MB",
+    "paymentMethod": "Payment Method",
+    "summary": "Booking Summary",
+    "car": "Car",
+    "period": "Period",
+    "baseCost": "Base Cost",
+    "seasonFee": "Season Fee",
+    "discount": "Discount",
+    "deposit": "Deposit",
+    "total": "Total",
+    "pointsAvailable": "Your Available Points",
+    "usePoints": "Use Points as Discount",
+    "termsAgree": "I agree to the Terms & Conditions",
+    "bookNow": "Confirm Booking",
+    "successTitle": "Booking Request Sent!",
+    "successMsg": "Your request will be reviewed by our team and you'll be notified within 24 hours",
+    "bookingNumber": "Booking Number"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Create New Account",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "forgotPassword": "Forgot Password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginBtn": "Sign In",
+    "registerBtn": "Create Account",
+    "orContinueWith": "Or continue with",
+    "google": "Google",
+    "loginSuccess": "Logged in successfully",
+    "registerSuccess": "Account created successfully"
+  },
+  "dashboard": {
+    "title": "My Dashboard",
+    "welcome": "Welcome,",
+    "bookings": "My Bookings",
+    "favorites": "Favorites",
+    "profile": "My Profile",
+    "points": "My Points",
+    "documents": "My Documents",
+    "noBookings": "No bookings yet",
+    "bookNow": "Book a Car Now",
+    "status": {
+      "pending": "Pending Review",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "pointsInfo": "Every booking earns you points redeemable as discounts",
+    "totalPoints": "Your Total Points"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "dashboard": "Dashboard",
+    "cars": "Cars",
+    "bookings": "Bookings",
+    "customers": "Customers",
+    "branches": "Branches",
+    "seasons": "Seasons",
+    "offers": "Offers",
+    "documents": "Documents",
+    "reports": "Reports",
+    "settings": "Settings",
+    "totalBookings": "Total Bookings",
+    "totalRevenue": "Total Revenue",
+    "totalCars": "Total Cars",
+    "totalCustomers": "Total Customers",
+    "pendingBookings": "Pending Bookings",
+    "availableCars": "Available Cars",
+    "addCar": "Add Car",
+    "approve": "Approve",
+    "reject": "Reject",
+    "viewDocuments": "View Documents"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help you anytime",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "emergency": "Emergency Line",
+    "sendMessage": "Send a Message",
+    "yourName": "Your Name",
+    "yourEmail": "Your Email",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "Send",
+    "messageSent": "Your message was sent successfully"
+  },
+  "branches": {
+    "title": "Our Branches",
+    "subtitle": "Serving you across multiple locations in Jordan",
+    "viewOnMap": "View on Map",
+    "getDirections": "Get Directions",
+    "callBranch": "Call Branch",
+    "workingHours": "Working Hours",
+    "carsAvailable": "Cars Available"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "The South Rent Car story and our vision for car rental in the Kingdom",
+    "storyTitle": "Our Story",
+    "storyBody1": "South Rent Car started from a simple idea: every visitor and every resident in Jordan should get a car worthy of their journey, with no complications and no surprises on the bill.",
+    "storyBody2": "Today we run a fleet of modern tourism vehicles, branches in Amman and Aqaba, and a team that works around the clock to make sure your trip starts exactly on time.",
+    "missionTitle": "Our Mission",
+    "missionBody": "To make renting a premium car in Jordan simple, transparent and dependable, from booking to handing over the key.",
+    "valuesTitle": "Our Values",
+    "valuesSubtitle": "Three principles behind every detail of our service",
+    "values": {
+      "quality": {
+        "title": "Uncompromising Quality",
+        "desc": "Every car in our fleet is inspected and serviced before each handover"
+      },
+      "trust": {
+        "title": "Transparent Pricing",
+        "desc": "The price you see is the price you pay, with no hidden fees"
+      },
+      "service": {
+        "title": "Service That Anticipates",
+        "desc": "Support available 24/7 in Arabic and English, anywhere in the Kingdom"
+      }
+    },
+    "whyTitle": "Why South Rent Car?",
+    "ctaTitle": "Ready to feel the difference?",
+    "ctaBody": "Browse our fleet and book your car in minutes",
+    "ctaBtn": "Browse Cars"
+  },
+  "legal": {
+    "lastUpdated": "Last updated",
+    "backHome": "Back to home",
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "We respect your privacy and are committed to protecting your personal data. This policy explains what we collect and how we use it.",
+      "collectTitle": "Data We Collect",
+      "collectBody": "We collect your name, email and phone number when you create an account, photos of your ID and driving licence when you complete a booking, plus your booking and payment history.",
+      "useTitle": "How We Use Your Data",
+      "useBody": "We use your data to process bookings, verify driving eligibility, contact you about your reservation, and improve our service. We do not use it for anything else without your permission.",
+      "shareTitle": "Data Sharing",
+      "shareBody": "We do not sell your data. We share it only with payment providers to complete a transaction, and with authorities where we have a legal obligation.",
+      "securityTitle": "Data Security",
+      "securityBody": "Passwords are stored hashed and data is transmitted over an encrypted connection. Access to customer documents is limited to authorised staff.",
+      "rightsTitle": "Your Rights",
+      "rightsBody": "You may request access to, correction of, or deletion of your data at any time by contacting us.",
+      "contactTitle": "Privacy Enquiries",
+      "contactBody": "For any privacy question, write to info@drivejordan.jo"
+    },
+    "terms": {
+      "title": "Terms & Conditions",
+      "intro": "By using the South Rent Car website and booking a car through it, you agree to the following terms.",
+      "eligibilityTitle": "Eligibility",
+      "eligibilityBody": "The renter must be at least 21 years old, hold a driving licence valid for at least one year, and present a valid ID or passport.",
+      "bookingTitle": "Booking & Confirmation",
+      "bookingBody": "Every booking request is subject to review and document verification. The minimum rental is 3 days, rising to 7 days during peak seasons. A booking is confirmed only once approved.",
+      "paymentTitle": "Payment & Deposit",
+      "paymentBody": "The deposit is paid at pickup and refunded in full when the car is returned in its original condition. Seasonal rates published at the time of booking apply.",
+      "cancellationTitle": "Cancellation & Changes",
+      "cancellationBody": "Bookings may be cancelled free of charge up to 48 hours before pickup. Later cancellations may incur a one-day charge.",
+      "liabilityTitle": "Liability",
+      "liabilityBody": "The renter is responsible for traffic fines and any damage not covered by insurance during the rental period. Taking the vehicle outside the Kingdom requires written permission.",
+      "pointsTitle": "Points Programme",
+      "pointsBody": "Completed bookings earn 10 points per JOD, and every 100 points is worth 1 JOD off a future rental. Points are non-transferable and hold no cash value.",
+      "contactTitle": "Contact",
+      "contactBody": "For questions about these terms, write to info@drivejordan.jo"
+    }
+  },
+  "footer": {
+    "description": "Jordan's premier tourism car rental company. We provide top-tier vehicles at competitive prices.",
+    "quickLinks": "Quick Links",
+    "services": "Our Services",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  }
+}

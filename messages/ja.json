@@ -1,0 +1,344 @@
+{
+  "common": {
+    "siteName": "South Rent Car",
+    "siteTagline": "ヨルダンの高級レンタカー",
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "tryAgain": "再試行",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "view": "表示",
+    "close": "閉じる",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "submit": "送信",
+    "confirm": "確定",
+    "search": "検索",
+    "filter": "絞り込み",
+    "all": "すべて",
+    "yes": "はい",
+    "no": "いいえ",
+    "currency": "ヨルダン・ディナール",
+    "perDay": "1日あたり",
+    "days": "日間",
+    "day": "日"
+  },
+  "nav": {
+    "home": "ホーム",
+    "cars": "車両一覧",
+    "branches": "店舗",
+    "offers": "キャンペーン",
+    "about": "会社概要",
+    "contact": "お問い合わせ",
+    "login": "ログイン",
+    "register": "新規登録",
+    "dashboard": "マイページ",
+    "admin": "管理画面",
+    "logout": "ログアウト",
+    "language": "言語"
+  },
+  "home": {
+    "hero": {
+      "badge": "ヨルダンで No.1",
+      "title": "ヨルダンを巡る",
+      "titleHighlight": "ラグジュアリーな旅を",
+      "subtitle": "王国各地での忘れられないドライブ体験を、プレミアムな車両ラインナップとともに",
+      "searchPlaceholder": "どちらへ行かれますか？",
+      "pickupDate": "貸出日",
+      "returnDate": "返却日",
+      "searchBtn": "車を探す",
+      "stats": {
+        "cars": "高級車",
+        "customers": "ご利用のお客様",
+        "years": "年の実績",
+        "branches": "店舗"
+      }
+    },
+    "featured": "おすすめの車両",
+    "featuredSubtitle": "厳選したプレミアム車両からお選びください",
+    "viewAll": "すべての車両を見る",
+    "howItWorks": "ご利用の流れ",
+    "howItWorksSubtitle": "3つの簡単なステップでご出発いただけます",
+    "steps": {
+      "choose": {
+        "title": "車を選ぶ",
+        "desc": "車両ラインナップからご希望の1台をお選びください"
+      },
+      "book": {
+        "title": "すぐに予約",
+        "desc": "日程を選び、安全に予約を完了できます"
+      },
+      "drive": {
+        "title": "出発！",
+        "desc": "車を受け取って、旅をお楽しみください"
+      }
+    },
+    "whyUs": "South Rent Car が選ばれる理由",
+    "features": {
+      "luxury": {
+        "title": "プレミアムな車両",
+        "desc": "最高水準の品質基準を満たした新しい車両"
+      },
+      "safe": {
+        "title": "安全なお支払い",
+        "desc": "暗号化され、しっかりと保護された決済プラットフォーム"
+      },
+      "support": {
+        "title": "24時間365日サポート",
+        "desc": "スタッフがいつでも対応いたします"
+      },
+      "delivery": {
+        "title": "ご指定場所へ配車",
+        "desc": "ヨルダン国内のご滞在先まで車をお届けします"
+      }
+    }
+  },
+  "cars": {
+    "title": "車両ラインナップ",
+    "subtitle": "厳選したコレクションからお選びください",
+    "filters": {
+      "all": "すべての車両",
+      "available": "空車のみ",
+      "transmission": "トランスミッション",
+      "automatic": "オートマチック",
+      "manual": "マニュアル",
+      "fuelType": "燃料",
+      "petrol": "ガソリン",
+      "diesel": "ディーゼル",
+      "hybrid": "ハイブリッド",
+      "electric": "電気自動車",
+      "seats": "乗車定員",
+      "priceRange": "価格帯",
+      "sortBy": "並べ替え",
+      "priceLow": "価格の安い順",
+      "priceHigh": "価格の高い順",
+      "newest": "新着順"
+    },
+    "card": {
+      "perDay": "/ 日",
+      "seats": "人乗り",
+      "book": "今すぐ予約",
+      "details": "詳細を見る",
+      "available": "空車あり",
+      "booked": "予約済み",
+      "maintenance": "整備中"
+    },
+    "detail": {
+      "specs": "スペック",
+      "pricing": "料金",
+      "availability": "空車状況",
+      "daily": "1日",
+      "weekly": "1週間",
+      "monthly": "1か月",
+      "deposit": "保証金",
+      "fuel": "燃料",
+      "consumption": "燃費",
+      "transmission": "トランスミッション",
+      "color": "カラー",
+      "year": "年式",
+      "brand": "メーカー",
+      "model": "モデル",
+      "seats": "乗車定員"
+    }
+  },
+  "booking": {
+    "title": "ご予約の手続き",
+    "steps": {
+      "dates": "日程",
+      "details": "お客様情報",
+      "documents": "書類",
+      "payment": "お支払い",
+      "confirm": "確認"
+    },
+    "pickupDate": "貸出日",
+    "returnDate": "返却日",
+    "minDays": "最短のご利用日数は{days}日です",
+    "seasonMinDays": "このシーズン中の最短ご利用日数は{days}日です",
+    "delivery": "ご滞在先まで車をお届けしますか？",
+    "deliveryAddress": "お届け先住所",
+    "uploadDocs": "必要書類のアップロード",
+    "idDoc": "身分証明書／パスポートの写真",
+    "licenseDoc": "運転免許証の写真",
+    "uploadHint": "PNG・JPG、10MBまで",
+    "paymentMethod": "お支払い方法",
+    "summary": "ご予約内容",
+    "car": "車両",
+    "period": "ご利用期間",
+    "baseCost": "基本料金",
+    "seasonFee": "シーズン料金",
+    "discount": "割引",
+    "deposit": "保証金",
+    "total": "合計",
+    "pointsAvailable": "ご利用可能なポイント",
+    "usePoints": "ポイントを割引に使う",
+    "termsAgree": "利用規約に同意します",
+    "bookNow": "予約を確定する",
+    "successTitle": "ご予約リクエストを送信しました",
+    "successMsg": "担当者が内容を確認し、24時間以内にご連絡いたします",
+    "bookingNumber": "予約番号"
+  },
+  "auth": {
+    "login": "ログイン",
+    "register": "新規アカウント作成",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "confirmPassword": "パスワード（確認）",
+    "name": "お名前",
+    "phone": "電話番号",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "noAccount": "アカウントをお持ちでないですか？",
+    "hasAccount": "すでにアカウントをお持ちですか？",
+    "loginBtn": "ログイン",
+    "registerBtn": "アカウントを作成",
+    "orContinueWith": "または次で続行",
+    "google": "Google",
+    "loginSuccess": "ログインしました",
+    "registerSuccess": "アカウントを作成しました"
+  },
+  "dashboard": {
+    "title": "マイページ",
+    "welcome": "ようこそ、",
+    "bookings": "予約履歴",
+    "favorites": "お気に入り",
+    "profile": "プロフィール",
+    "points": "ポイント",
+    "documents": "登録書類",
+    "noBookings": "まだご予約はありません",
+    "bookNow": "今すぐ車を予約する",
+    "status": {
+      "pending": "確認待ち",
+      "approved": "承認済み",
+      "rejected": "却下",
+      "completed": "利用完了",
+      "cancelled": "キャンセル済み"
+    },
+    "pointsInfo": "ご予約ごとに、割引として使えるポイントが貯まります",
+    "totalPoints": "保有ポイント合計"
+  },
+  "admin": {
+    "title": "管理画面",
+    "dashboard": "ダッシュボード",
+    "cars": "車両",
+    "bookings": "予約",
+    "customers": "顧客",
+    "branches": "店舗",
+    "seasons": "シーズン設定",
+    "offers": "キャンペーン",
+    "documents": "書類",
+    "reports": "レポート",
+    "settings": "設定",
+    "totalBookings": "予約総数",
+    "totalRevenue": "総売上",
+    "totalCars": "車両総数",
+    "totalCustomers": "顧客総数",
+    "pendingBookings": "未処理の予約",
+    "availableCars": "空車",
+    "addCar": "車両を追加",
+    "approve": "承認",
+    "reject": "却下",
+    "viewDocuments": "書類を確認"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "いつでもお気軽にご相談ください",
+    "phone": "電話",
+    "whatsapp": "WhatsApp",
+    "email": "メール",
+    "emergency": "緊急連絡先",
+    "sendMessage": "メッセージを送る",
+    "yourName": "お名前",
+    "yourEmail": "メールアドレス",
+    "subject": "件名",
+    "message": "お問い合わせ内容",
+    "send": "送信",
+    "messageSent": "メッセージを送信しました"
+  },
+  "branches": {
+    "title": "店舗一覧",
+    "subtitle": "ヨルダン各地でお客様をお迎えしています",
+    "viewOnMap": "地図で見る",
+    "getDirections": "ルートを検索",
+    "callBranch": "店舗に電話する",
+    "workingHours": "営業時間",
+    "carsAvailable": "空車台数"
+  },
+  "about": {
+    "title": "私たちについて",
+    "subtitle": "South Rent Car の歩みと、ヨルダンにおけるレンタカーへの想い",
+    "storyTitle": "私たちの歩み",
+    "storyBody1": "South Rent Car は、シンプルな思いから始まりました。ヨルダンを訪れるすべての方、暮らすすべての方に、その旅にふさわしい一台を、手間なく、料金の驚きもなくお届けしたい。",
+    "storyBody2": "現在は最新の高級車を揃えた車両群と、アンマンおよびアカバの拠点、そして旅の出発を時間どおりにするため24時間体制で動くチームを備えています。",
+    "missionTitle": "私たちの使命",
+    "missionBody": "ヨルダンでの高級車レンタルを、予約から鍵のお渡しまで、シンプルで透明性が高く、信頼できるものにすること。",
+    "valuesTitle": "私たちの価値観",
+    "valuesSubtitle": "サービスのすべての細部を支える3つの原則",
+    "values": {
+      "quality": {
+        "title": "妥協のない品質",
+        "desc": "すべての車両を、お渡しのたびに点検・整備しています"
+      },
+      "trust": {
+        "title": "明朗な料金",
+        "desc": "表示された金額がお支払い金額です。隠れた費用はありません"
+      },
+      "service": {
+        "title": "先回りするサービス",
+        "desc": "ヨルダン全土で、アラビア語と英語による24時間サポート"
+      }
+    },
+    "whyTitle": "South Rent Car が選ばれる理由",
+    "ctaTitle": "その違いを、確かめませんか",
+    "ctaBody": "車両一覧をご覧いただき、数分でご予約いただけます",
+    "ctaBtn": "車両を見る"
+  },
+  "legal": {
+    "lastUpdated": "最終更新",
+    "backHome": "ホームに戻る",
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "intro": "当社はお客様のプライバシーを尊重し、個人データの保護に努めます。本ポリシーでは、収集する情報とその利用方法をご説明します。",
+      "collectTitle": "収集する情報",
+      "collectBody": "アカウント作成時にお名前・メールアドレス・電話番号を、ご予約完了時に身分証明書と運転免許証の画像を、あわせてご予約およびお支払いの履歴を取得します。",
+      "useTitle": "情報の利用目的",
+      "useBody": "ご予約の処理、運転資格の確認、ご予約に関するご連絡、サービス改善のために利用します。お客様の同意なく、それ以外の目的には利用しません。",
+      "shareTitle": "情報の共有",
+      "shareBody": "お客様の情報を販売することはありません。決済を完了するための決済事業者、および法令上の義務がある場合の当局に限り共有します。",
+      "securityTitle": "情報の安全管理",
+      "securityBody": "パスワードは暗号化して保管し、データは暗号化された通信で送信されます。お客様の書類へのアクセスは権限のある担当者に限定されます。",
+      "rightsTitle": "お客様の権利",
+      "rightsBody": "当社までご連絡いただくことで、いつでもデータの開示・訂正・削除をご請求いただけます。",
+      "contactTitle": "プライバシーに関するお問い合わせ",
+      "contactBody": "プライバシーに関するご質問は info@drivejordan.jo までご連絡ください"
+    },
+    "terms": {
+      "title": "利用規約",
+      "intro": "South Rent Car のウェブサイトをご利用になり、車両をご予約いただくことで、以下の規約に同意されたものとみなします。",
+      "eligibilityTitle": "ご利用条件",
+      "eligibilityBody": "借主は21歳以上であり、取得後1年以上の有効な運転免許証を保持し、有効な身分証明書またはパスポートをご提示ください。",
+      "bookingTitle": "ご予約と確定",
+      "bookingBody": "すべてのご予約は審査と書類確認の対象となります。最短レンタル期間は3日、繁忙期は7日です。ご予約は承認をもって確定します。",
+      "paymentTitle": "お支払いと保証金",
+      "paymentBody": "保証金はお引き渡し時にお支払いいただき、車両を原状のままご返却いただいた時点で全額返金します。ご予約時点で公開されている季節料金が適用されます。",
+      "cancellationTitle": "キャンセルと変更",
+      "cancellationBody": "お引き渡しの48時間前までは無料でキャンセルいただけます。それ以降のキャンセルには1日分の料金が発生する場合があります。",
+      "liabilityTitle": "責任",
+      "liabilityBody": "レンタル期間中の交通違反金および保険で補償されない損害は借主の負担となります。車両をヨルダン国外へ持ち出す場合は書面による許可が必要です。",
+      "pointsTitle": "ポイントプログラム",
+      "pointsBody": "完了したご予約は1ヨルダンディナールにつき10ポイント、100ポイントごとに1ディナールの割引となります。ポイントの譲渡および現金化はできません。",
+      "contactTitle": "お問い合わせ",
+      "contactBody": "本規約に関するご質問は info@drivejordan.jo までご連絡ください"
+    }
+  },
+  "footer": {
+    "description": "ヨルダンを代表する高級レンタカー会社です。ハイクラスな車両を、納得の価格でご提供します。",
+    "quickLinks": "クイックリンク",
+    "services": "サービス",
+    "followUs": "フォローする",
+    "rights": "All rights reserved",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約"
+  }
+}

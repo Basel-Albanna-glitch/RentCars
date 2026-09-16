@@ -1,0 +1,344 @@
+{
+  "common": {
+    "siteName": "South Rent Car",
+    "siteTagline": "Alquiler de coches de lujo en Jordania",
+    "loading": "Cargando...",
+    "error": "Se ha producido un error",
+    "tryAgain": "Intentar de nuevo",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "close": "Cerrar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "submit": "Enviar",
+    "confirm": "Confirmar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "all": "Todos",
+    "yes": "Sí",
+    "no": "No",
+    "currency": "JOD",
+    "perDay": "por día",
+    "days": "días",
+    "day": "día"
+  },
+  "nav": {
+    "home": "Inicio",
+    "cars": "Coches",
+    "branches": "Sucursales",
+    "offers": "Ofertas",
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "dashboard": "Mi panel",
+    "admin": "Administración",
+    "logout": "Cerrar sesión",
+    "language": "Idioma"
+  },
+  "home": {
+    "hero": {
+      "badge": "N.º 1 en Jordania",
+      "title": "Descubre Jordania",
+      "titleHighlight": "Con lujo y estilo",
+      "subtitle": "Una flota premium de vehículos para una experiencia de conducción inolvidable por todo el Reino",
+      "searchPlaceholder": "¿A dónde quieres ir?",
+      "pickupDate": "Fecha de recogida",
+      "returnDate": "Fecha de devolución",
+      "searchBtn": "Buscar un coche",
+      "stats": {
+        "cars": "Coches de lujo",
+        "customers": "Clientes satisfechos",
+        "years": "Años de experiencia",
+        "branches": "Sucursales"
+      }
+    },
+    "featured": "Coches destacados",
+    "featuredSubtitle": "Elige entre nuestra selección premium",
+    "viewAll": "Ver todos los coches",
+    "howItWorks": "Cómo funciona",
+    "howItWorksSubtitle": "Tres pasos sencillos para conseguir tu coche",
+    "steps": {
+      "choose": {
+        "title": "Elige tu coche",
+        "desc": "Explora nuestra flota y elige el coche perfecto para ti"
+      },
+      "book": {
+        "title": "Reserva al instante",
+        "desc": "Selecciona las fechas y completa tu reserva de forma segura"
+      },
+      "drive": {
+        "title": "¡A la carretera!",
+        "desc": "Recoge tu coche y disfruta de tu viaje"
+      }
+    },
+    "whyUs": "¿Por qué South Rent Car?",
+    "features": {
+      "luxury": {
+        "title": "Flota premium",
+        "desc": "Coches modernos que cumplen los más altos estándares de calidad"
+      },
+      "safe": {
+        "title": "Pago seguro",
+        "desc": "Plataforma de pago cifrada y totalmente protegida"
+      },
+      "support": {
+        "title": "Soporte 24/7",
+        "desc": "Nuestro equipo está disponible las 24 horas"
+      },
+      "delivery": {
+        "title": "Entrega a domicilio",
+        "desc": "Llevamos el coche hasta tu ubicación en Jordania"
+      }
+    }
+  },
+  "cars": {
+    "title": "Nuestra flota",
+    "subtitle": "Elige entre nuestra distinguida colección",
+    "filters": {
+      "all": "Todos los coches",
+      "available": "Solo disponibles",
+      "transmission": "Transmisión",
+      "automatic": "Automática",
+      "manual": "Manual",
+      "fuelType": "Tipo de combustible",
+      "petrol": "Gasolina",
+      "diesel": "Diésel",
+      "hybrid": "Híbrido",
+      "electric": "Eléctrico",
+      "seats": "Asientos",
+      "priceRange": "Rango de precio",
+      "sortBy": "Ordenar por",
+      "priceLow": "Precio: de menor a mayor",
+      "priceHigh": "Precio: de mayor a menor",
+      "newest": "Más recientes"
+    },
+    "card": {
+      "perDay": "/ día",
+      "seats": "asientos",
+      "book": "Reservar ahora",
+      "details": "Detalles",
+      "available": "Disponible",
+      "booked": "Reservado",
+      "maintenance": "Mantenimiento"
+    },
+    "detail": {
+      "specs": "Especificaciones",
+      "pricing": "Precios",
+      "availability": "Disponibilidad",
+      "daily": "Diario",
+      "weekly": "Semanal",
+      "monthly": "Mensual",
+      "deposit": "Depósito",
+      "fuel": "Tipo de combustible",
+      "consumption": "Consumo",
+      "transmission": "Transmisión",
+      "color": "Color",
+      "year": "Año",
+      "brand": "Marca",
+      "model": "Modelo",
+      "seats": "Asientos"
+    }
+  },
+  "booking": {
+    "title": "Completa tu reserva",
+    "steps": {
+      "dates": "Fechas",
+      "details": "Datos",
+      "documents": "Documentos",
+      "payment": "Pago",
+      "confirm": "Confirmar"
+    },
+    "pickupDate": "Fecha de recogida",
+    "returnDate": "Fecha de devolución",
+    "minDays": "La reserva mínima es de {days} días",
+    "seasonMinDays": "Durante esta temporada, el mínimo es de {days} días",
+    "delivery": "¿Quieres que te entreguemos el coche en tu ubicación?",
+    "deliveryAddress": "Dirección de entrega",
+    "uploadDocs": "Sube los documentos requeridos",
+    "idDoc": "Foto del DNI / pasaporte",
+    "licenseDoc": "Foto del permiso de conducir",
+    "uploadHint": "PNG o JPG de hasta 10 MB",
+    "paymentMethod": "Método de pago",
+    "summary": "Resumen de la reserva",
+    "car": "Coche",
+    "period": "Periodo",
+    "baseCost": "Coste base",
+    "seasonFee": "Suplemento de temporada",
+    "discount": "Descuento",
+    "deposit": "Depósito",
+    "total": "Total",
+    "pointsAvailable": "Tus puntos disponibles",
+    "usePoints": "Usar puntos como descuento",
+    "termsAgree": "Acepto los términos y condiciones",
+    "bookNow": "Confirmar reserva",
+    "successTitle": "¡Solicitud de reserva enviada!",
+    "successMsg": "Nuestro equipo revisará tu solicitud y te avisaremos en un plazo de 24 horas",
+    "bookingNumber": "Número de reserva"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "register": "Crear una cuenta nueva",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "name": "Nombre completo",
+    "phone": "Número de teléfono",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "noAccount": "¿No tienes cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "loginBtn": "Entrar",
+    "registerBtn": "Crear cuenta",
+    "orContinueWith": "O continúa con",
+    "google": "Google",
+    "loginSuccess": "Sesión iniciada correctamente",
+    "registerSuccess": "Cuenta creada correctamente"
+  },
+  "dashboard": {
+    "title": "Mi panel",
+    "welcome": "Bienvenido,",
+    "bookings": "Mis reservas",
+    "favorites": "Favoritos",
+    "profile": "Mi perfil",
+    "points": "Mis puntos",
+    "documents": "Mis documentos",
+    "noBookings": "Todavía no hay reservas",
+    "bookNow": "Reservar un coche ahora",
+    "status": {
+      "pending": "Pendiente de revisión",
+      "approved": "Aprobada",
+      "rejected": "Rechazada",
+      "completed": "Completada",
+      "cancelled": "Cancelada"
+    },
+    "pointsInfo": "Cada reserva te da puntos canjeables por descuentos",
+    "totalPoints": "Tus puntos totales"
+  },
+  "admin": {
+    "title": "Panel de administración",
+    "dashboard": "Estadísticas",
+    "cars": "Coches",
+    "bookings": "Reservas",
+    "customers": "Clientes",
+    "branches": "Sucursales",
+    "seasons": "Temporadas",
+    "offers": "Ofertas",
+    "documents": "Documentos",
+    "reports": "Informes",
+    "settings": "Ajustes",
+    "totalBookings": "Reservas totales",
+    "totalRevenue": "Ingresos totales",
+    "totalCars": "Coches totales",
+    "totalCustomers": "Clientes totales",
+    "pendingBookings": "Reservas pendientes",
+    "availableCars": "Coches disponibles",
+    "addCar": "Añadir coche",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "viewDocuments": "Ver documentos"
+  },
+  "contact": {
+    "title": "Contacta con nosotros",
+    "subtitle": "Estamos aquí para ayudarte en todo momento",
+    "phone": "Teléfono",
+    "whatsapp": "WhatsApp",
+    "email": "Correo electrónico",
+    "emergency": "Línea de emergencia",
+    "sendMessage": "Enviar un mensaje",
+    "yourName": "Tu nombre",
+    "yourEmail": "Tu correo electrónico",
+    "subject": "Asunto",
+    "message": "Tu mensaje",
+    "send": "Enviar",
+    "messageSent": "Tu mensaje se ha enviado correctamente"
+  },
+  "branches": {
+    "title": "Nuestras sucursales",
+    "subtitle": "Te atendemos en varias ubicaciones de Jordania",
+    "viewOnMap": "Ver en el mapa",
+    "getDirections": "Cómo llegar",
+    "callBranch": "Llamar a la sucursal",
+    "workingHours": "Horario de atención",
+    "carsAvailable": "Coches disponibles"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "subtitle": "La historia de South Rent Car y nuestra visión del alquiler de coches en el Reino",
+    "storyTitle": "Nuestra Historia",
+    "storyBody1": "South Rent Car nació de una idea sencilla: que cada visitante y cada residente en Jordania consiga un coche a la altura de su viaje, sin complicaciones ni sorpresas en la factura.",
+    "storyBody2": "Hoy contamos con una flota de vehículos de lujo modernos, sucursales en Ammán y Áqaba, y un equipo que trabaja las 24 horas para que tu viaje empiece puntual.",
+    "missionTitle": "Nuestra Misión",
+    "missionBody": "Hacer que alquilar un coche premium en Jordania sea sencillo, transparente y fiable, desde la reserva hasta la entrega de la llave.",
+    "valuesTitle": "Nuestros Valores",
+    "valuesSubtitle": "Tres principios detrás de cada detalle de nuestro servicio",
+    "values": {
+      "quality": {
+        "title": "Calidad Sin Concesiones",
+        "desc": "Cada coche de nuestra flota se revisa y se mantiene antes de cada entrega"
+      },
+      "trust": {
+        "title": "Precios Transparentes",
+        "desc": "El precio que ves es el precio que pagas, sin cargos ocultos"
+      },
+      "service": {
+        "title": "Servicio Que Se Anticipa",
+        "desc": "Soporte disponible 24/7 en árabe e inglés, en cualquier punto del Reino"
+      }
+    },
+    "whyTitle": "¿Por qué South Rent Car?",
+    "ctaTitle": "¿Listo para notar la diferencia?",
+    "ctaBody": "Explora nuestra flota y reserva tu coche en minutos",
+    "ctaBtn": "Ver Coches"
+  },
+  "legal": {
+    "lastUpdated": "Última actualización",
+    "backHome": "Volver al inicio",
+    "privacy": {
+      "title": "Política de Privacidad",
+      "intro": "Respetamos tu privacidad y nos comprometemos a proteger tus datos personales. Esta política explica qué recopilamos y cómo lo usamos.",
+      "collectTitle": "Datos Que Recopilamos",
+      "collectBody": "Recopilamos tu nombre, correo y teléfono al crear la cuenta, fotos de tu documento de identidad y permiso de conducir al completar la reserva, además de tu historial de reservas y pagos.",
+      "useTitle": "Cómo Usamos Tus Datos",
+      "useBody": "Usamos tus datos para tramitar reservas, verificar la aptitud para conducir, contactarte sobre tu reserva y mejorar el servicio. No los usamos para nada más sin tu permiso.",
+      "shareTitle": "Compartir Datos",
+      "shareBody": "No vendemos tus datos. Solo los compartimos con proveedores de pago para completar la transacción y con las autoridades cuando existe una obligación legal.",
+      "securityTitle": "Seguridad de los Datos",
+      "securityBody": "Las contraseñas se almacenan cifradas y los datos se transmiten por conexión cifrada. El acceso a los documentos de clientes se limita al personal autorizado.",
+      "rightsTitle": "Tus Derechos",
+      "rightsBody": "Puedes solicitar el acceso, la corrección o la eliminación de tus datos en cualquier momento contactándonos.",
+      "contactTitle": "Consultas de Privacidad",
+      "contactBody": "Para cualquier duda sobre privacidad, escribe a info@drivejordan.jo"
+    },
+    "terms": {
+      "title": "Términos y Condiciones",
+      "intro": "Al usar el sitio de South Rent Car y reservar un coche a través de él, aceptas los siguientes términos.",
+      "eligibilityTitle": "Requisitos",
+      "eligibilityBody": "El arrendatario debe tener al menos 21 años, un permiso de conducir con un año de antigüedad como mínimo y presentar un documento de identidad o pasaporte válido.",
+      "bookingTitle": "Reserva y Confirmación",
+      "bookingBody": "Toda solicitud de reserva está sujeta a revisión y verificación de documentos. El alquiler mínimo es de 3 días, y de 7 días en temporada alta. La reserva solo se confirma una vez aprobada.",
+      "paymentTitle": "Pago y Fianza",
+      "paymentBody": "La fianza se abona en la recogida y se devuelve íntegra al entregar el coche en su estado original. Se aplican las tarifas de temporada publicadas en el momento de la reserva.",
+      "cancellationTitle": "Cancelación y Cambios",
+      "cancellationBody": "Las reservas pueden cancelarse sin coste hasta 48 horas antes de la recogida. Las cancelaciones posteriores pueden conllevar el cargo de un día.",
+      "liabilityTitle": "Responsabilidad",
+      "liabilityBody": "El arrendatario responde de las multas de tráfico y de los daños no cubiertos por el seguro durante el alquiler. Sacar el vehículo fuera del Reino requiere permiso por escrito.",
+      "pointsTitle": "Programa de Puntos",
+      "pointsBody": "Las reservas completadas otorgan 10 puntos por JOD, y cada 100 puntos equivalen a 1 JOD de descuento. Los puntos no son transferibles ni canjeables por dinero.",
+      "contactTitle": "Contacto",
+      "contactBody": "Para preguntas sobre estos términos, escribe a info@drivejordan.jo"
+    }
+  },
+  "footer": {
+    "description": "La principal empresa de alquiler de coches de lujo de Jordania. Ofrecemos vehículos de primer nivel a precios competitivos.",
+    "quickLinks": "Enlaces rápidos",
+    "services": "Nuestros servicios",
+    "followUs": "Síguenos",
+    "rights": "Todos los derechos reservados",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones"
+  }
+}

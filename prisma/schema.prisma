@@ -1,0 +1,344 @@
+// This is your Prisma schema file
+// Jordan Tourism Car Rental — Enterprise System
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// =====================
+// ENUMS
+// =====================
+
+enum Role {
+  USER
+  ADMIN
+  SUPER_ADMIN
+}
+
+enum CarStatus {
+  AVAILABLE
+  BOOKED
+  MAINTENANCE
+  OUT_OF_SERVICE
+}
+
+enum FuelType {
+  PETROL
+  DIESEL
+  HYBRID
+  ELECTRIC
+}
+
+enum Transmission {
+  AUTOMATIC
+  MANUAL
+}
+
+enum BookingStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  COMPLETED
+  CANCELLED
+}
+
+enum PaymentMethod {
+  VISA
+  MASTERCARD
+  CLIQ
+  CASH
+}
+
+enum PaymentStatus {
+  PENDING
+  PAID
+  REFUNDED
+  FAILED
+}
+
+enum DocumentType {
+  NATIONAL_ID
+  PASSPORT
+  DRIVING_LICENSE
+}
+
+enum DocumentStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  REUPLOAD_REQUIRED
+}
+
+// =====================
+// MODELS
+// =====================
+
+model User {
+  id            String    @id @default(uuid())
+  name          String
+  email         String    @unique
+  emailVerified DateTime?
+  phone         String?
+  image         String?
+  password      String?
+  role          Role      @default(USER)
+  points        Int       @default(0)
+  isActive      Boolean   @default(true)
+
+  // Relations
+  branchId      String?
+  branch        Branch?    @relation(fields: [branchId], references: [id])
+  bookings      Booking[]
+  documents     Document[]
+  favorites     Favorite[]
+  pointsHistory PointHistory[]
+  accounts      Account[]
+  sessions      Session[]
+
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  @@map("users")
+}
+
+model Account {
+  id                String  @id @default(uuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@map("accounts")
+}
+
+model Session {
+  id           String   @id @default(uuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("sessions")
+}
+
+model Branch {
+  id          String  @id @default(uuid())
+  name        String
+  nameAr      String
+  address     String
+  addressAr   String
+  city        String
+  lat         Decimal @db.Decimal(10, 8)
+  lng         Decimal @db.Decimal(11, 8)
+  phone       String
+  whatsapp    String
+  email       String
+  emergencyPhone String?
+  isActive    Boolean @default(true)
+
+  // Relations
+  cars        Car[]
+  admins      User[]
+  bookings    Booking[]
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("branches")
+}
+
+model Car {
+  id              String      @id @default(uuid())
+  name            String
+  nameAr          String
+  brand           String
+  model           String
+  year            Int
+  seats           Int
+  fuelType        FuelType
+  fuelConsumption String?     // e.g. "8L/100km"
+  transmission    Transmission
+  color           String
+  colorAr         String?
+  description     String?     @db.Text
+  descriptionAr   String?     @db.Text
+  images          String[]    // Cloudinary URLs
+  status          CarStatus   @default(AVAILABLE)
+
+  // Pricing
+  dailyPrice      Decimal     @db.Decimal(10, 2)
+  weeklyPrice     Decimal?    @db.Decimal(10, 2)
+  monthlyPrice    Decimal?    @db.Decimal(10, 2)
+  depositAmount   Decimal     @db.Decimal(10, 2)
+
+  // Relations
+  branchId        String
+  branch          Branch      @relation(fields: [branchId], references: [id])
+  bookings        Booking[]
+  favorites       Favorite[]
+
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  @@map("cars")
+}
+
+model Season {
+  id             String   @id @default(uuid())
+  name           String
+  nameAr         String
+  startDate      DateTime
+  endDate        DateTime
+  priceMultiplier Decimal @db.Decimal(4, 2) // e.g. 1.5 = 50% increase
+  minDays        Int      @default(7)
+  isActive       Boolean  @default(true)
+  description    String?
+  descriptionAr  String?
+
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@map("seasons")
+}
+
+model Booking {
+  id              String        @id @default(uuid())
+  bookingNumber   String        @unique @default(cuid())
+
+  // Who & What
+  userId          String
+  user            User          @relation(fields: [userId], references: [id])
+  carId           String
+  car             Car           @relation(fields: [carId], references: [id])
+  branchId        String
+  branch          Branch        @relation(fields: [branchId], references: [id])
+
+  // Dates
+  startDate       DateTime
+  endDate         DateTime
+  totalDays       Int
+
+  // Pricing
+  baseAmount      Decimal       @db.Decimal(10, 2)
+  seasonMultiplier Decimal      @db.Decimal(4, 2) @default(1)
+  discountAmount  Decimal       @db.Decimal(10, 2) @default(0)
+  depositAmount   Decimal       @db.Decimal(10, 2)
+  totalAmount     Decimal       @db.Decimal(10, 2)
+
+  // Status & Notes
+  status          BookingStatus @default(PENDING)
+  adminNote       String?
+  deliveryAddress String?
+  deliveryLat     Decimal?      @db.Decimal(10, 8)
+  deliveryLng     Decimal?      @db.Decimal(11, 8)
+  needsDelivery   Boolean       @default(false)
+
+  // Points
+  pointsEarned    Int           @default(0)
+  pointsUsed      Int           @default(0)
+
+  // Relations
+  documents       Document[]
+  payments        Payment[]
+
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  @@map("bookings")
+}
+
+model Payment {
+  id              String        @id @default(uuid())
+  bookingId       String
+  booking         Booking       @relation(fields: [bookingId], references: [id])
+  amount          Decimal       @db.Decimal(10, 2)
+  method          PaymentMethod
+  status          PaymentStatus @default(PENDING)
+  transactionId   String?
+  stripePaymentId String?
+  notes           String?
+
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  @@map("payments")
+}
+
+model Document {
+  id         String         @id @default(uuid())
+  bookingId  String
+  booking    Booking        @relation(fields: [bookingId], references: [id])
+  userId     String
+  user       User           @relation(fields: [userId], references: [id])
+  type       DocumentType
+  imageUrl   String
+  status     DocumentStatus @default(PENDING)
+  adminNote  String?
+
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
+
+  @@map("documents")
+}
+
+model Favorite {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  carId     String
+  car       Car      @relation(fields: [carId], references: [id])
+
+  createdAt DateTime @default(now())
+
+  @@unique([userId, carId])
+  @@map("favorites")
+}
+
+model PointHistory {
+  id          String   @id @default(uuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  points      Int      // positive = earned, negative = used
+  description String
+  bookingId   String?
+
+  createdAt   DateTime @default(now())
+
+  @@map("point_history")
+}
+
+model Offer {
+  id             String   @id @default(uuid())
+  title          String
+  titleAr        String
+  description    String?  @db.Text
+  descriptionAr  String?  @db.Text
+  discountPercent Int?     // e.g. 20 = 20% off
+  discountAmount  Decimal? @db.Decimal(10, 2)
+  code            String?  @unique
+  startDate       DateTime
+  endDate         DateTime
+  isActive        Boolean  @default(true)
+  usageLimit      Int?
+  usageCount      Int      @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("offers")
+}

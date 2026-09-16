@@ -1,0 +1,344 @@
+{
+  "common": {
+    "siteName": "South Rent Car",
+    "siteTagline": "约旦豪华租车服务",
+    "loading": "加载中...",
+    "error": "发生错误",
+    "tryAgain": "重试",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "view": "查看",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "submit": "提交",
+    "confirm": "确认",
+    "search": "搜索",
+    "filter": "筛选",
+    "all": "全部",
+    "yes": "是",
+    "no": "否",
+    "currency": "约旦第纳尔",
+    "perDay": "每天",
+    "days": "天",
+    "day": "天"
+  },
+  "nav": {
+    "home": "首页",
+    "cars": "车辆",
+    "branches": "门店",
+    "offers": "优惠",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "login": "登录",
+    "register": "注册",
+    "dashboard": "我的账户",
+    "admin": "管理后台",
+    "logout": "退出登录",
+    "language": "语言"
+  },
+  "home": {
+    "hero": {
+      "badge": "约旦排名第一",
+      "title": "探索约旦",
+      "titleHighlight": "尽享奢华出行",
+      "subtitle": "高端车队，助您在约旦王国各地开启难忘的驾驶之旅",
+      "searchPlaceholder": "您想去哪里？",
+      "pickupDate": "取车日期",
+      "returnDate": "还车日期",
+      "searchBtn": "查找车辆",
+      "stats": {
+        "cars": "豪华车型",
+        "customers": "满意客户",
+        "years": "年行业经验",
+        "branches": "家门店"
+      }
+    },
+    "featured": "精选车型",
+    "featuredSubtitle": "从我们的高端车型中挑选",
+    "viewAll": "查看全部车辆",
+    "howItWorks": "预订流程",
+    "howItWorksSubtitle": "三个简单步骤即可提车",
+    "steps": {
+      "choose": {
+        "title": "选择车辆",
+        "desc": "浏览我们的车队，挑选最适合您的车型"
+      },
+      "book": {
+        "title": "即时预订",
+        "desc": "选择日期并安全完成预订"
+      },
+      "drive": {
+        "title": "出发上路",
+        "desc": "取车后即可开启您的旅程"
+      }
+    },
+    "whyUs": "为什么选择 South Rent Car？",
+    "features": {
+      "luxury": {
+        "title": "高端车队",
+        "desc": "符合最高品质标准的新款车型"
+      },
+      "safe": {
+        "title": "安全支付",
+        "desc": "全程加密、全面保护的支付平台"
+      },
+      "support": {
+        "title": "全天候客服",
+        "desc": "我们的团队 24 小时为您服务"
+      },
+      "delivery": {
+        "title": "送车上门",
+        "desc": "我们可将车辆送至您在约旦的所在位置"
+      }
+    }
+  },
+  "cars": {
+    "title": "我们的车队",
+    "subtitle": "从我们的精选车型中挑选",
+    "filters": {
+      "all": "全部车辆",
+      "available": "仅看可租",
+      "transmission": "变速箱",
+      "automatic": "自动挡",
+      "manual": "手动挡",
+      "fuelType": "燃料类型",
+      "petrol": "汽油",
+      "diesel": "柴油",
+      "hybrid": "混合动力",
+      "electric": "纯电动",
+      "seats": "座位数",
+      "priceRange": "价格区间",
+      "sortBy": "排序方式",
+      "priceLow": "价格：从低到高",
+      "priceHigh": "价格：从高到低",
+      "newest": "最新上架"
+    },
+    "card": {
+      "perDay": "/ 天",
+      "seats": "座",
+      "book": "立即预订",
+      "details": "查看详情",
+      "available": "可租",
+      "booked": "已预订",
+      "maintenance": "保养中"
+    },
+    "detail": {
+      "specs": "车辆参数",
+      "pricing": "价格",
+      "availability": "可租日期",
+      "daily": "日租",
+      "weekly": "周租",
+      "monthly": "月租",
+      "deposit": "押金",
+      "fuel": "燃料类型",
+      "consumption": "油耗",
+      "transmission": "变速箱",
+      "color": "颜色",
+      "year": "年款",
+      "brand": "品牌",
+      "model": "车型",
+      "seats": "座位数"
+    }
+  },
+  "booking": {
+    "title": "完成预订",
+    "steps": {
+      "dates": "日期",
+      "details": "信息",
+      "documents": "证件",
+      "payment": "支付",
+      "confirm": "确认"
+    },
+    "pickupDate": "取车日期",
+    "returnDate": "还车日期",
+    "minDays": "最少租期为 {days} 天",
+    "seasonMinDays": "本旺季期间最少租期为 {days} 天",
+    "delivery": "需要我们把车送到您的所在位置吗？",
+    "deliveryAddress": "送车地址",
+    "uploadDocs": "上传所需证件",
+    "idDoc": "身份证 / 护照照片",
+    "licenseDoc": "驾驶执照照片",
+    "uploadHint": "支持 PNG、JPG，最大 10MB",
+    "paymentMethod": "支付方式",
+    "summary": "预订摘要",
+    "car": "车辆",
+    "period": "租期",
+    "baseCost": "基础费用",
+    "seasonFee": "旺季附加费",
+    "discount": "优惠",
+    "deposit": "押金",
+    "total": "合计",
+    "pointsAvailable": "您的可用积分",
+    "usePoints": "使用积分抵扣",
+    "termsAgree": "我已阅读并同意条款与条件",
+    "bookNow": "确认预订",
+    "successTitle": "预订申请已提交！",
+    "successMsg": "我们的团队将审核您的申请，并在 24 小时内通知您",
+    "bookingNumber": "预订编号"
+  },
+  "auth": {
+    "login": "登录",
+    "register": "创建新账户",
+    "email": "电子邮箱",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "name": "姓名",
+    "phone": "手机号码",
+    "forgotPassword": "忘记密码？",
+    "noAccount": "还没有账户？",
+    "hasAccount": "已有账户？",
+    "loginBtn": "登录",
+    "registerBtn": "创建账户",
+    "orContinueWith": "或使用以下方式继续",
+    "google": "Google",
+    "loginSuccess": "登录成功",
+    "registerSuccess": "账户创建成功"
+  },
+  "dashboard": {
+    "title": "我的账户",
+    "welcome": "欢迎，",
+    "bookings": "我的预订",
+    "favorites": "我的收藏",
+    "profile": "个人资料",
+    "points": "我的积分",
+    "documents": "我的证件",
+    "noBookings": "暂无预订",
+    "bookNow": "立即预订车辆",
+    "status": {
+      "pending": "待审核",
+      "approved": "已通过",
+      "rejected": "已拒绝",
+      "completed": "已完成",
+      "cancelled": "已取消"
+    },
+    "pointsInfo": "每笔预订都可获得积分，积分可抵扣租金",
+    "totalPoints": "您的积分总额"
+  },
+  "admin": {
+    "title": "管理后台",
+    "dashboard": "数据概览",
+    "cars": "车辆管理",
+    "bookings": "预订管理",
+    "customers": "客户管理",
+    "branches": "门店管理",
+    "seasons": "旺季与价格",
+    "offers": "优惠活动",
+    "documents": "证件审核",
+    "reports": "报表",
+    "settings": "设置",
+    "totalBookings": "预订总数",
+    "totalRevenue": "总收入",
+    "totalCars": "车辆总数",
+    "totalCustomers": "客户总数",
+    "pendingBookings": "待处理预订",
+    "availableCars": "可租车辆",
+    "addCar": "添加车辆",
+    "approve": "通过",
+    "reject": "拒绝",
+    "viewDocuments": "查看证件"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "我们随时为您提供帮助",
+    "phone": "电话",
+    "whatsapp": "WhatsApp",
+    "email": "电子邮箱",
+    "emergency": "紧急联系电话",
+    "sendMessage": "发送留言",
+    "yourName": "您的姓名",
+    "yourEmail": "您的邮箱",
+    "subject": "主题",
+    "message": "留言内容",
+    "send": "发送",
+    "messageSent": "您的留言已成功发送"
+  },
+  "branches": {
+    "title": "我们的门店",
+    "subtitle": "在约旦多个地点为您服务",
+    "viewOnMap": "在地图中查看",
+    "getDirections": "获取路线",
+    "callBranch": "致电门店",
+    "workingHours": "营业时间",
+    "carsAvailable": "可租车辆"
+  },
+  "about": {
+    "title": "关于我们",
+    "subtitle": "South Rent Car 的故事，以及我们对约旦租车的愿景",
+    "storyTitle": "我们的故事",
+    "storyBody1": "South Rent Car 源于一个简单的想法：每一位到访约旦的旅客和每一位当地居民，都应该拥有一辆配得上其旅程的车，过程不繁琐，账单无意外。",
+    "storyBody2": "如今我们拥有一支现代豪华车队，在安曼和亚喀巴设有门店，并有一支全天候工作的团队，确保您的旅程准时启程。",
+    "missionTitle": "我们的使命",
+    "missionBody": "让在约旦租一辆高端车变得简单、透明、可靠，从预订到交钥匙的每一步。",
+    "valuesTitle": "我们的价值观",
+    "valuesSubtitle": "支撑我们服务每一个细节的三条原则",
+    "values": {
+      "quality": {
+        "title": "品质毫不妥协",
+        "desc": "车队中每一辆车在每次交付前都经过检查与保养"
+      },
+      "trust": {
+        "title": "价格透明",
+        "desc": "所见即所付，绝无隐藏费用"
+      },
+      "service": {
+        "title": "先人一步的服务",
+        "desc": "全天候阿拉伯语与英语支持，覆盖约旦全境"
+      }
+    },
+    "whyTitle": "为什么选择 South Rent Car？",
+    "ctaTitle": "准备好体验不同了吗？",
+    "ctaBody": "浏览我们的车队，几分钟内完成预订",
+    "ctaBtn": "浏览车辆"
+  },
+  "legal": {
+    "lastUpdated": "最后更新",
+    "backHome": "返回首页",
+    "privacy": {
+      "title": "隐私政策",
+      "intro": "我们尊重您的隐私，并承诺保护您的个人数据。本政策说明我们收集哪些信息以及如何使用。",
+      "collectTitle": "我们收集的数据",
+      "collectBody": "创建账户时我们收集您的姓名、电子邮箱和电话号码；完成预订时收集您的身份证件和驾照照片；此外还包括您的预订与付款记录。",
+      "useTitle": "我们如何使用您的数据",
+      "useBody": "我们使用您的数据来处理预订、核验驾驶资格、就预订事宜与您联系并改进服务。未经您的许可，我们不会用于其他任何用途。",
+      "shareTitle": "数据共享",
+      "shareBody": "我们不出售您的数据。仅在完成交易时与支付服务商共享，以及在存在法律义务时向主管机关提供。",
+      "securityTitle": "数据安全",
+      "securityBody": "密码以加密形式存储，数据通过加密连接传输。客户证件的访问权限仅限于获授权的员工。",
+      "rightsTitle": "您的权利",
+      "rightsBody": "您可随时联系我们，要求查阅、更正或删除您的数据。",
+      "contactTitle": "隐私咨询",
+      "contactBody": "如有任何隐私问题，请发送邮件至 info@drivejordan.jo"
+    },
+    "terms": {
+      "title": "条款与条件",
+      "intro": "使用 South Rent Car 网站并通过其预订车辆，即表示您同意以下条款。",
+      "eligibilityTitle": "资格要求",
+      "eligibilityBody": "承租人须年满 21 周岁，持有至少一年有效期的驾照，并出示有效身份证件或护照。",
+      "bookingTitle": "预订与确认",
+      "bookingBody": "每一份预订申请均须经过审核与证件核验。最短租期为 3 天，旺季为 7 天。预订须经批准后方为确认。",
+      "paymentTitle": "付款与押金",
+      "paymentBody": "押金于取车时支付，车辆按原状归还后全额退还。适用预订时公布的季节性价格。",
+      "cancellationTitle": "取消与变更",
+      "cancellationBody": "取车前 48 小时以上可免费取消。其后取消可能收取一天的费用。",
+      "liabilityTitle": "责任",
+      "liabilityBody": "租期内的交通罚款及保险未涵盖的损失由承租人承担。未经书面许可，不得将车辆驶出约旦境外。",
+      "pointsTitle": "积分计划",
+      "pointsBody": "已完成的预订每消费 1 第纳尔可得 10 积分，每 100 积分抵扣 1 第纳尔。积分不可转让，也不可兑换现金。",
+      "contactTitle": "联系我们",
+      "contactBody": "如对本条款有疑问，请发送邮件至 info@drivejordan.jo"
+    }
+  },
+  "footer": {
+    "description": "约旦领先的豪华租车公司，以具有竞争力的价格提供高品质车辆。",
+    "quickLinks": "快速链接",
+    "services": "我们的服务",
+    "followUs": "关注我们",
+    "rights": "版权所有",
+    "privacy": "隐私政策",
+    "terms": "条款与条件"
+  }
+}
